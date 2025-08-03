@@ -18,34 +18,44 @@ This tool supports task dependencies, colored output logs, command validation, a
   - ✅ Modular C development
 <br>
 How to compile: make sure tasker.c (your main file) and cJSON.c (from the cJSON library) are in the same folder, then compile using
+<br>
 gcc tasker.c cJSON.c -o tasker_runner.exe
 <br>
 If cJSON.h is missing, install the cJSON library and place the headers correctly.
 <br>
 Usage:
 Run a task:
+<br>
 ./tasker_runner.exe <task_name>
 <br>
 List all available tasks:
+<br>
 ./tasker_runner.exe --list
 <br>
 Show help:
+<br>
 ./tasker_runner.exe --help
 <br>
 About/version info:
+<br>
 ./tasker_runner.exe --version
 <br>
 If no arguments are provided, the tool prints a friendly intro message with usage hints.
 <br>
 The terminal output uses ANSI escape codes to differentiate logs:
+<br>
 Yellow → Info & usage instructions
+<br>
 Green → Success logs & confirmations
+<br>
 Red → Errors & alerts
+<br>
 Pink → Task names & structure
+<br>
 Bright Blue → Executed commands
 <br>
 Colors are reset after each message to avoid terminal bleed.
 <br>
 Made by Ritika Bhasin as a personal project to learn CLI tools, JSON parsing, memory handling, and shell execution using pure C.
-
+<br>
 MIT License – Free to use, modify, and distribute.
