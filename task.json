@@ -1,0 +1,14 @@
+{
+    "build": {
+        "cmd": "gcc main.c -o main.exe",
+        "deps": []
+    },
+    "run": {
+        "cmd": "main.exe",
+        "deps": ["build"]
+    },
+    "clean": {
+        "cmd": "del main.exe",
+        "deps": []
+    }
+}
