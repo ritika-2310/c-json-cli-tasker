@@ -8,10 +8,15 @@ A colorful and lightweight Command Line Interface (CLI) tool written in C that r
 This tool supports task dependencies, colored output logs, command validation, and helpful flags. Just define your tasks once in JSON format and run them effortlessly from the terminal.
 <br>
 🔹 Supports commands like `--list`, `--help`, `--version`
+<br>
 🔹 Direct shell task execution from JSON configuration
+<br>
 🔹 Colored terminal output for info, success, error
+<br>
 🔹 Formatted logs and clear usage hints
+<br>
 🔹 Built to explore:
+<br>
   - ✅ JSON parsing in C
   - ✅ Shell command execution
   - ✅ Memory handling
